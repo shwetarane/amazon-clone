@@ -1,4 +1,13 @@
-@import-normalize;
+/* @import-normalize; */
+
+body, p{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
 
 body {
   background-color: rgb(234,237,237);
