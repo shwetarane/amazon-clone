@@ -4,8 +4,9 @@ import {useStateValue} from "../StateProvider"
 
 
 function Product({id, title, image, price, rating}) {
+    // eslint-disable-next-line
     const[ {cart}, dispatch] = useStateValue();
-    console.log('object', cart)
+    // console.log('object', cart)
     // disptach item into Data Layer
     const addToCart=()=>{
         dispatch({

@@ -1,6 +1,6 @@
 #keys
 src/Firebase.js
-
+/key.js
 # Logs
 logs
 *.log

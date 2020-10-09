@@ -1,6 +1,6 @@
 /* @import-normalize; */
 
-body, p{
+body, p, a, h5{
 	margin: 0;
 	padding: 0;
 	border: 0;
